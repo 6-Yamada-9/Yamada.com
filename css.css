@@ -75,3 +75,17 @@ h4::after {
   background: #90A4AE;
   background: linear-gradient(to left, #B0BEC5 0%, #90A4AE 100%);
 }
+
+.flex {
+  display: flex;
+}
+.flex .image {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flex .text {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
