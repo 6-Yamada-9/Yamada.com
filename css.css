@@ -100,7 +100,7 @@ main {
   border-radius: 0px;       /* 角を丸くする（お好みで） */
   margin: 0;
 }
-main p {
+main p, main h2 {
   margin-left: 15px;
 }
 .right {
