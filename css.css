@@ -95,6 +95,7 @@ h2 {
 }
 
 main {
+  width: 220px;
   background-color: #f3f3f3; /* 好きな色 */
   padding: 15px;             /* 内側の余白 */
   border-radius: 0px;       /* 角を丸くする（お好みで） */
