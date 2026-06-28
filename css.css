@@ -3,7 +3,7 @@
 }
 
 @keyframes scaleAnime {
-  100% { transform: scale(1.1) translateX(10em); }
+  100% { transform: scale(1.1) translateX(9em); }
 }
 
 .sample1 { font: italic 100% Fantasy; }
