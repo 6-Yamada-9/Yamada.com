@@ -89,3 +89,6 @@ h4::after {
   margin: 0 0 0 20px;
   padding: 0;
 }
+h2 {
+  font-weight: 800;
+}
