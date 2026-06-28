@@ -43,16 +43,15 @@ transition-duration: 0.5s;
   margin: 0 auto;
   position: absolute;
 }
-
-.container {
-  width: 960px;
-}
-
 /* スマホなど、画面幅が768px以下の場合のスタイル */
 @media screen and (max-width: 768px) {
   .container {
-    width: 100%;
+    flex-direction: column;
     padding: 0 20px;
+  }
+
+  .right {
+    width: auto;
   }
 }
 img {
@@ -95,7 +94,7 @@ h2 {
 }
 
 main {
-  width: 930px;
+  flex: 1;
   background-color: #f3f3f3; /* 好きな色 */
   padding: 15px;             /* 内側の余白 */
   border-radius: 0px;       /* 角を丸くする（お好みで） */
@@ -111,4 +110,5 @@ main {
     gap: 20px;
     max-width: 1200px;
     margin: 20px auto;
+    width: 100%;
 }
