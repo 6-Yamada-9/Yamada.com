@@ -64,7 +64,7 @@ h4{
 　position: relative; /* 疑似要素の基準 */
   padding-bottom: 10px;
 }
-.h4::after {
+h4::after {
     position: absolute;
     bottom: -3px;
     left: 0;
