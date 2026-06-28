@@ -12,6 +12,7 @@ body {
   font-family: 'M PLUS Rounded 1c', sans-serif; font-weight: 600;
   font-style: normal; 	font-size: large;
   -webkit-text-size-adjust: 100%;
+  line-height: 1.5;
 }
 
 .right-shift {
